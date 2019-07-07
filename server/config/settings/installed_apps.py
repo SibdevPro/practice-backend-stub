@@ -10,7 +10,9 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
 ]
 
-LOCAL_APPS = []
+LOCAL_APPS = [
+    'apps.test',
+]
 
 INSTALLED_APPS += LOCAL_APPS
 
