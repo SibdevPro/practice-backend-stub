@@ -6,6 +6,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 LOCAL_APPS = []
