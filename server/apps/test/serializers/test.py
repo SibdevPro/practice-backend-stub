@@ -6,4 +6,4 @@ from apps.test.models import Test
 class TestSerializer(ModelSerializer):
     class Meta:
         model = Test
-        fields = ('name', )
+        fields = '__all__'
