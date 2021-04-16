@@ -6,7 +6,7 @@ gunicorn==20.0.4 # http сервер, который свзявает nginx с d
 
 ipdb==0.13.3 # отладка программ
 ipython==7.12.0 # приятная работа в shell
-django-debug-toolbar==2.2 # панель для отладки запросов в бд
+django-debug-toolbar==2.2.1 # панель для отладки запросов в бд
 
 Pillow==7.2.0 # для работы с изображениями
 djangorestframework==3.11.0 # API
